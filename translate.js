@@ -30,7 +30,7 @@ arrFind.forEach((find) => {
         }
     })
 });
-fs.writeFileSync('./output/t8.shakespeare-translated.txt', inputData);
+fs.writeFileSync('./output/t8.shakespeare.translated.txt', inputData);
 
 const csvWriter = createCsvWriter({path: './output/frequency.csv',
     header: [
